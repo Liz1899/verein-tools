@@ -1,0 +1,59 @@
+# Virtuelle Umgebung
+.venv/
+venv/
+ENV/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Python-Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build-Dateien
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Temporäre Dateien
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.rej
+
+# Output-Ordner
+output/
+bilder_output/
+assets/*.pdf
+*.jpg
+*.png
+
+# Test-/Coverage-Dateien
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage
+.cache/
+*.cover
+coverage.xml
+
+# OS-Systemdateien
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Konfig-/Dotfiles
+.env
+.env.*
+*.sublime-*
+*.code-workspace
